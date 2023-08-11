@@ -77,13 +77,6 @@ ul {
   color: black;
 }
 
-.container {
-  border: 1px solid rgb(232, 145, 13);;
-  border-radius: 5px;
-  color: rgb(223, 138, 10);
-}
-
 .time {
   text-align: center;
 }
-
