@@ -6,7 +6,7 @@ import { RecipePage } from './RecipePage';
 function App() {
   return (
     <>
-      <MainPage />
+      <MainPage break/>
       <RecipePage />
     </> 
   );

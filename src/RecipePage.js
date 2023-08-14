@@ -1,9 +1,12 @@
+import { InfoColumn } from "./InfoColumn";
+import { RecipeSteps } from "./RecipeSteps";
+
 export function RecipePage() {
     return (
         <>
             <div className="RecipePage"></div>
-            <div className="infoColumn"></div>
-            <div className="recipeSteps"></div>
+            <InfoColumn />
+            <RecipeSteps />
         </>
     );
 }
