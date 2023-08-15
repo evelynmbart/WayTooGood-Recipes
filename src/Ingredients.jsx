@@ -19,7 +19,7 @@ export function Ingredients() {
                                     </div>
                                     <div>
                                         <img className="ingredientimages" src="https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a2efafd2cb9ce488b4567.png" alt="Chicken breast"/>
-                                        <p className="food">Chicken Tits</p>
+                                        <p className="food">Chicken Breast</p>
                                     </div>
                                     <div>
                                         <img className="ingredientimages" src="https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5632315bf8b25e5a138b4568-07f14295.png" alt="Chicken stock"/>
