@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Inter:wght@300;400&family=Kosugi+Maru&family=Marck+Script&family=Montserrat&display=swap');
 
+html {
+  background-color: white;
+}
+
 #root {
+  background-color: white;
   width: 100%;
 }
 
@@ -130,13 +135,31 @@ ul {
 }
 
 .steps {
-  border: 1px solid black;
   height: 50%;
   width: 33%;
   overflow: hidden;
 }
 
-.image {
-  width:80%;
+.stepimages {
+  height: 200px;
   display:block;
+  margin:auto;
+}
+
+.instructions {
+  width:90%;
+  height:100px;
+  display:flex;
+  background-color: transparent;
+  border:0;
+  resize:none;
+  margin-left: 10px;
+}
+
+.stepNumber {
+  font-family: montserrat;
+  font-size: 25px;
+  margin: 3px;
+  width:10px;
+  color: rgb(232, 145, 13);
 }
