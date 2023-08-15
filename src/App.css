@@ -22,7 +22,7 @@
   padding-left: 30px;
 }
 
-.header {
+.pageOne {
   display:flex;
   flex-direction: row;
   margin-left: 40px;
@@ -89,10 +89,11 @@ ul {
   text-align: center;
 }
 
-.page {
+.pageTwo {
   break-before: always;
   display: flex;
   margin: 30px;
+  margin-top: 90px;
 }
 
 .leftColumn {
@@ -108,12 +109,34 @@ ul {
   color: rgb(232, 145, 13);
 }
 
+.nutritionfacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.macros {
+  color: black;
+}
+
 .note {
   font-size: 12px;
 }
 
 .rightColumn {
-  border: 2px solid black;
+  display:flex;
   max-height: 100%;
   width:80%;
+  flex-wrap: wrap;
+}
+
+.steps {
+  border: 1px solid black;
+  height: 50%;
+  width: 33%;
+  overflow: hidden;
+}
+
+.image {
+  width:80%;
+  display:block;
 }

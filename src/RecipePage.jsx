@@ -4,7 +4,7 @@ import { RightColumn } from "./RightColumn";
 export function RecipePage() {
     return (
         <>
-            <div className="page">
+            <div className="pageTwo">
                 <LeftColumn />
                 <RightColumn />
             </div>

@@ -1,3 +1,5 @@
+import { NutritionFacts } from "./NutritionFacts";
+
 export function LeftColumn() {
     return (
         <>
@@ -14,23 +16,7 @@ export function LeftColumn() {
                             <li>Whisk</li>
                         </ul>
                     </fieldset>
-                    <fieldset className="border">
-                        <legend>NUTRITION FACTS</legend>
-                        <p className="quantity">/ per serving</p>
-                        {/* <h4>Ingredient 2-person | 4-person</h4> */}
-                        <ul className="nutritionfacts">
-                            <li>Calories</li>
-                            <li>Fat</li>
-                            <li>Saturated Fat</li>
-                            <li>Carbohydrate</li>
-                            <li>Sugar</li>
-                            <li>Dietary Fiber</li>
-                            <li>Protein</li>
-                            <li>Cholesterol</li>
-                            <li>Sodium</li>
-                        </ul>
-                        <p className="note">*Due to the different suppliers we purchase our products from, nutritional facts per meal can vary from the website to what is received in the delivered box, depending on your region.</p>
-                    </fieldset>
+                    <NutritionFacts />
                     <fieldset className="tips">
                         <legend>NOTES/TIPS</legend>
                         <ul>
