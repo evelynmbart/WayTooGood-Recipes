@@ -5,7 +5,7 @@ export function LeftColumn() {
         <>
         <div className="leftColumn">
                     <fieldset className="border">
-                        <legend>WHAT YOU'LL NEED</legend>
+                        <legend><b>WHAT YOU'LL NEED</b></legend>
                         <ul>
                             <li>Peeler</li>
                             <li>Small Pot</li>
@@ -18,7 +18,7 @@ export function LeftColumn() {
                     </fieldset>
                     <NutritionFacts />
                     <fieldset className="tips">
-                        <legend>NOTES/TIPS</legend>
+                        <legend><b>NOTES/TIPS</b></legend>
                         <ul>
                             <li>you got this!</li>
                             <li>don't give up!</li>

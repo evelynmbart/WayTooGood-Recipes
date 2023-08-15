@@ -18,7 +18,7 @@ export function MainPage() {
                         </div>
                         <div className="ingredients">
                             <fieldset className="border">
-                                <legend>INGREDIENTS</legend>
+                                <legend><b>INGREDIENTS</b></legend>
                                 <ul>
                                 <li>Chicken Breast</li>
                                 <li>Israeli Couscous</li>

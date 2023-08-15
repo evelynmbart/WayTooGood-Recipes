@@ -2,7 +2,7 @@ export function NutritionFacts() {
     return (
         <>
             <fieldset className="border">
-                <legend>NUTRITION FACTS</legend>
+                <legend><b>NUTRITION FACTS</b></legend>
                     <p className="quantity">/ per serving</p>
                     <div className="nutritionfacts">
                         <div className="macros">
