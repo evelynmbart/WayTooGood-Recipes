@@ -1,4 +1,5 @@
 import { ExtraInfo } from "./ExtraInfo";
+import { Ingredients } from "./Ingredients";
 
 export function MainPage() {
     return (
@@ -16,22 +17,7 @@ export function MainPage() {
                                     in a Cherry Balsamic Sauce
                                 </p>
                         </div>
-                        <div className="ingredients">
-                            <fieldset className="border">
-                                <legend><b>INGREDIENTS</b></legend>
-                                <ul>
-                                <li>Chicken Breast</li>
-                                <li>Israeli Couscous</li>
-                                <li>Carrots</li>
-                                <li>Garlic</li>
-                                <li>Chicken Stock</li>
-                                <li>Balsamic Vinegar</li>
-                                <li>Cherry Jam</li>
-                                <li>Scallions</li>
-                                <li>Sliced Almonds</li>
-                                </ul>
-                            </fieldset>
-                        </div>
+                        <Ingredients />
                         <div className="extraInfo">
                             <ExtraInfo />
                         </div>
