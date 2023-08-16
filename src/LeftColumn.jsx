@@ -12,7 +12,7 @@ export function LeftColumn() {
                             <li>Baking Sheet</li>
                             <li>Olive Oil (5 tsp | 10 tsp)</li>
                             <li>Butter (3 tbsp | 5 tbsp)</li>
-                            <li>Large Pan</li>
+                            <li>Large Skillet</li>
                             <li>Whisk</li>
                         </ul>
                     </fieldset>
