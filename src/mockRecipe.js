@@ -28,6 +28,9 @@ export const MOCK_RECIPE = {
         "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5632315bf8b25e5a138b4568-07f14295.png",
       name: "Chicken Stock",
     },
+    {
+      image: "",
+    },
   ],
   extraInfo: {
     prepTime: "15 min",
