@@ -1,6 +1,6 @@
 import { NutritionFacts } from "./NutritionFacts";
 
-export function LeftColumn() {
+export function LeftColumn({ recipe }) {
     return (
         <>
         <div className="leftColumn">
@@ -16,7 +16,7 @@ export function LeftColumn() {
                             <li>Whisk</li>
                         </ul>
                     </fieldset>
-                    <NutritionFacts />
+                    <NutritionFacts nutritionFacts={recipe.nutritionFacts} />
                     <fieldset className="tips">
                         <legend><b>NOTES/TIPS</b></legend>
                         <ol>

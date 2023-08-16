@@ -1,4 +1,4 @@
-export function NutritionFacts() {
+export function NutritionFacts({ nutritionFacts }) {
     return (
         <>
             <fieldset className="border">
@@ -6,7 +6,7 @@ export function NutritionFacts() {
                     <p className="quantity">/ per serving</p>
                     <div className="nutritionfacts">
                         <div className="macros">
-                            <div>Calories</div>
+                            {nutritionFacts.calories && <div>Calories</div>}
                             <div>Fat</div>
                             <div>Saturated Fat</div>
                             <div>Carbohydrate</div>
@@ -16,7 +16,7 @@ export function NutritionFacts() {
                             <div>Sodium</div>
                         </div>
                         <div>
-                            <div>680 kcal</div>
+                            {nutritionFacts.calories && <div>{nutritionFacts.calories} kcal</div>}
                             <div>28 g</div>
                             <div>10 g</div>
                             <div>63 g</div>

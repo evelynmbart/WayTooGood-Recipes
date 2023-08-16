@@ -1,12 +1,12 @@
 import { LeftColumn } from "./LeftColumn";
 import { RightColumn } from "./RightColumn";
 
-export function RecipePage() {
+export function RecipePage({ recipe }) {
     return (
         <>
             <div className="pageTwo">
-                <LeftColumn />
-                <RightColumn />
+                <LeftColumn recipe={recipe} />
+                <RightColumn steps={recipe.steps}/>
             </div>
         </>
     )
