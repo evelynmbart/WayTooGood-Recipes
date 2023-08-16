@@ -112,10 +112,12 @@ legend {
   justify-content: center;
 }
 
-ul {
+.list {
   color: black;
   font-family: Montserrat;
   font-size: 15px;
+  column-count: 2;
+  margin-left:-15px;
 }
 
 .time {
