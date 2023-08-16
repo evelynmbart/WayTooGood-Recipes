@@ -2,7 +2,33 @@ export const MOCK_RECIPE = {
   title: "Cherry Balsamic Chicken",
   subtitle:
     "with Almond Couscous and Roasted Carrots in a Cherry Balsamic Sauce",
-  ingredients: ["Chicken Breast", "Israeli Coucous"],
+  ingredients: [
+    {
+      image:
+        "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5550dbfdf8b25e56468b456d-28d1540f.png",
+      name: "Carrots",
+    },
+    {
+      image:
+        "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a363df8b25e1d268b456b-15867d90.png",
+      name: "Garlic",
+    },
+    {
+      image:
+        "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/565dc53979a23c31668b4567-fe08fd79.png",
+      name: "Coucous",
+    },
+    {
+      image:
+        "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a2efafd2cb9ce488b4567.png",
+      name: "Chicken Breast",
+    },
+    {
+      image:
+        "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5632315bf8b25e5a138b4568-07f14295.png",
+      name: "Chicken Stock",
+    },
+  ],
   extraInfo: {
     prepTime: "15 min",
     totalTime: "35 min",
