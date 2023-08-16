@@ -11,11 +11,17 @@ export const MOCK_RECIPE = {
   image:
     "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/60eeee4c1afbf376a85e7a86-6a9f8caa.jpg",
   materials: ["Peeler", "Small Pot", "Large Skillet", "Baking Sheet"],
-  nutritionFacts: {
-    calories: 6280,
+  macros: {
+    calories: 680,
     fat: 28,
+    saturatedFat: 10,
+    carbohydrate: 63,
+    dietaryFiber: 19,
+    protein: 45,
+    cholesterol: 150,
+    sodium: 410,
   },
-  notes: ["SUPER yum result"],
+  notes: ["SUPER yum result", "Easy as pie!"],
   steps: [
     {
       image:
