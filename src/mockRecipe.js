@@ -29,12 +29,29 @@ export const MOCK_RECIPE = {
       name: "Chicken Stock",
     },
     {
-      image: "",
+      image:
+        "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554a3879fd2cb9ba4f8b456a.png",
+      name: "Balsamic Vinegar",
+    },
+    {
+      image:
+        "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/58012ab5bfba3d61a60318e3-cba2e1ed.png",
+      name: "Cherry Jam",
+    },
+    {
+      image:
+        "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554a301f4dab71626c8b4569-015d8d9b.png",
+      name: "Scallions",
+    },
+    {
+      image:
+        "https://img.hellofresh.com/w_256,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5fbc1be7feb8473c1d2230a2-c932e679.png",
+      name: "Sliced Almonds",
     },
   ],
   extraInfo: {
-    prepTime: "15 min",
-    totalTime: "35 min",
+    prep: "15 min",
+    total: "35 min",
     calories: "800",
   },
   image:
