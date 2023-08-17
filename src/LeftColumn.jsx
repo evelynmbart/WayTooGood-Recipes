@@ -4,6 +4,19 @@ export function LeftColumn({ recipe }) {
   return (
     <>
       <div className="leftColumn">
+        {/* {recipe.map((materials, i) => {
+          return (
+            <ul className="list">
+              <li>{materials[0]}</li>
+              <li>{materials[1]}</li>
+              <li>{materials[2]}</li>
+              <li>{materials[3]}</li>
+              <li>{materials[4]}</li>
+              <li>{materials[5]}</li>
+              <li>{materials[6]}</li>
+            </ul>
+          );
+        })} */}
         <fieldset className="border">
           <legend>
             <b>WHAT YOU'LL NEED</b>
