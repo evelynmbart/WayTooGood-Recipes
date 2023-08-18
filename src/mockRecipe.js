@@ -75,7 +75,7 @@ export const MOCK_RECIPE = {
     cholesterol: 150,
     sodium: 410,
   },
-  notes: ["SUPER yum result", "Easy as pie!"],
+  notes: ["SUPER yum result", "Easy as pie!", "You're a pro!"],
   steps: [
     {
       image:

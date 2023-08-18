@@ -1,10 +1,10 @@
-export function ExtraInfo() {
+export function ExtraInfo({ extraInfo }) {
   return (
     <>
       <fieldset className="border">
-        <p className="time">Prep: 15 min</p>
-        <p className="time">Total: 35 min</p>
-        <p className="time">Calories 800</p>
+        <p className="time">Prep: {extraInfo.prep}</p>
+        <p className="time">Total: {extraInfo.total}</p>
+        <p className="time">Calories {extraInfo.calories}</p>
       </fieldset>
     </>
   );
